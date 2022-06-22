@@ -10,7 +10,7 @@ export default axios.create({
 
 export const API_DEFAULT_PARAMS = {
   per_page: 6,
-  key: '399602-06423da17c69593bb7c35aa00',
+  key: process.env.REACT_APP_API_KEY,
   lang: 'fr',
   safesearch: 'true',
   order: 'popular',
